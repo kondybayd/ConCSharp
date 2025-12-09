@@ -7,10 +7,20 @@
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             Console.InputEncoding = System.Text.Encoding.UTF8;
 
-            //TasksStrings
+            //Main
+            Hello();
+            Hello();
+            Hello();
+            Hello(3);
+            Hello();
+
+            //TasksFunctions
+
+
+
 
             //Functions
-            Greetings();
+            /*Greetings();
             AgeOfUSer(20);
 
             static void Greetings()
@@ -23,7 +33,7 @@
             static void AgeOfUSer(int age)
             {
                 Console.WriteLine($"Your age - {age}");
-            }
+            }*/
 
 
 
@@ -284,5 +294,17 @@
 
 
         }
+
+        static void Hello()
+        {
+            Console.WriteLine("Hello");
+        }
+
+        static void Hello(int repeat)
+        {
+            for (int i = 0; i <= repeat; i++)
+            {
+                Console.WriteLine("Hello");
+            }
+        } }
     }
- }
